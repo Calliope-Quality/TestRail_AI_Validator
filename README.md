@@ -1,3 +1,5 @@
+This repository falls under the larger Project Calliope
+
 Overview
 
 This Python notebook contains tools and utilities designed to integrate with TestRail and OpenAI APIs. The main functionalities include:
