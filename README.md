@@ -2,8 +2,6 @@
 
 This repository falls under the larger **Project Calliope**.
 
----
-
 ## Overview
 
 The purpose of this project is to integrate **TestRail** with **OpenAI** to revolutionize the way test case management and quality assurance processes are handled. By leveraging the power of OpenAI’s advanced language models, this integration aims to:
@@ -15,8 +13,6 @@ The purpose of this project is to integrate **TestRail** with **OpenAI** to revo
 
 This integration is designed to support teams in building a robust, efficient, and scalable QA process that minimizes defects and enhances software quality.
 
----
-
 ## Key Functionalities
 
 This Python notebook contains tools and utilities designed to integrate with TestRail and OpenAI APIs. The main functionalities include:
@@ -25,8 +21,6 @@ This Python notebook contains tools and utilities designed to integrate with Tes
 2. Utility functions for date conversion between human-readable formats and UNIX timestamps.
 3. Interaction with TestRail APIs using credentials from a `.env` file for secure management of secrets.
 4. OpenAI API integration for advanced capabilities powered by AI models.
-
----
 
 ## Architecture Overview
 
@@ -60,8 +54,6 @@ The integration follows a modular and scalable architecture designed to handle i
    - AI-generated suggestions and insights are compiled into a structured format.
    - These outputs can be exported for review and incorporated into TestRail for iterative improvements.
 
----
-
 ## Prerequisites
 
 To run this notebook, ensure you have the following installed and configured:
@@ -79,8 +71,6 @@ To run this notebook, ensure you have the following installed and configured:
   - `TESTRAIL_API_KEY`
   - `OPENAI_API_KEY`
 
----
-
 ## Key Features
 
 1. **Logging Setup:**
@@ -95,33 +85,26 @@ To run this notebook, ensure you have the following installed and configured:
    - Utilizes the OpenAI GPT-4 model (`gpt-4o-mini`) for advanced analysis.
    - API configurations are securely handled using `python-dotenv`.
 
----
-
 ## Setup Instructions
 
 1. Clone the repository containing this notebook.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+2. Install dependencies: `pip install -r requirements.txt`
+3. Set up your .env file with required credentials.
+4. Create a logs directory in the project root for logging.
 
-	3.	Set up your .env file with required credentials.
-	4.	Create a logs directory in the project root for logging.
+## Execution
+1. Run the notebook in your preferred Python environment (e.g., Jupyter Notebook, VSCode, or Google Colab).
+2. Follow the markdown cells for detailed instructions and examples.
 
-Execution
-	1.	Run the notebook in your preferred Python environment (e.g., Jupyter Notebook, VSCode, or Google Colab).
-	2.	Follow the markdown cells for detailed instructions and examples.
+## Future Enhancements
+• Expand date utility functions for more robust time zone support.
+• Add API examples for pulling and processing data from TestRail.
+• Extend OpenAI integration for automated report generation.
 
-Future Enhancements
-	•	Expand date utility functions for more robust time zone support.
-	•	Add API examples for pulling and processing data from TestRail.
-	•	Extend OpenAI integration for automated report generation.
+---
 
-Authors
-
+## Authors  
 Created by Adam Satterfield and Mike McDermott
 
-License
-
+## License
 This project is licensed under the MIT License.
-
-You can paste this directly into a `.md` file for your repository. Let me know if you need further refinements!
